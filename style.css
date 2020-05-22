@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  min-width: 960px;
+  font-family: "PressPlay-regular", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  color: white;
+  background-color: #302683;
+  background-image: linear-gradient(#3c328a 1px, transparent 1px),
+    linear-gradient(90deg, #3c328a 1px, transparent 1px),
+    linear-gradient(#3c328a 1px, transparent 1px),
+    linear-gradient(90deg, #3c328a 1px, transparent 1px);
+  background-size: 20px 20px, 20px 20px, 80px 80px, 80px 80px;
+  background-position: 0 0, 0 0, -1px -1px, -1px -1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.formulas,
+.answers {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 3px #ec5a35 solid;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #fff;
+  font-size: larger;
+}
+
+.title {
+  margin-bottom: -1px;
+}
+
+p {
+  color: #fff;
+  font-size: smaller;
+  border-left: 3px #ec5a35 solid;
+  padding-left: 15px;
+  margin: 0;
+  padding-right: 5px;
+  margin-bottom: 1px;
+  background-color: rgba(236, 90, 53, 0.2);
+}
+
+.computer {
+  border: 2px #ec5a35 dashed;
+  margin: 0;
+}
+
+.draggable {
+  border: 2px #48a222 solid;
+  margin: 0;
+  cursor: pointer;
+}
+
+.score {
+  margin-left: 240px;
+}
+
+.scene {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 1150px;
+  height: 900px;
+  border: 5px #ec5a35 solid;
+  background-color: transparent;
+}
+
+.computer-smile {
+  width: 1000px;
+}
+
+.results {
+  position: absolute;
+  top: 720px;
+  right: 0;
+  bottom: 0;
+  left: 155px;
+  border: 3px #ec5a35 dashed;
+  background-color: rgba(236, 90, 53, 0.2);
+  width: 250px;
+  height: 100px;
+}
+
+.button {
+  position: absolute;
+  padding: 6px 30px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background-color: #4eb543;
+  color: #ffffff;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: #48a222;
+  box-shadow: 5px 5px 0px #316f1a;
+}
+
+.theory {
+  bottom: 10px;
+  left: 20px;
+}
+
+.theory:hover {
+  background-color: #59519b;
+  box-shadow: 5px 5px 0px #443b8f;
+}
+
+.author {
+  bottom: 10px;
+  left: 190px;
+}
+
+.author:hover {
+  background-color: #ec5a35;
+  box-shadow: 5px 5px 0px #bc482a;
+}
+
+.retry {
+  bottom: 10px;
+  left: 405px;
+}
+
+.retry:hover {
+  background-color: #ff6666;
+  box-shadow: 5px 5px 0px #c62121;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Алгебра логики</title>
+    
+  </head>
+  <body>
+    <div class="scene">
+      <div class="grid">
+        <div class="answers grid">
+          <h2 class="title">ЗАКОНЫ:</h2>
+            <p class="computer droppable" data-item-type="1">Закон тождества</p>
+            <p class="computer droppable" data-item-type="2">Закон противоречия</p>
+            <p class="computer droppable" data-item-type="3">Закон исключающего третьего</p>
+            <p class="computer droppable" data-item-type="4">Закон двойного отрицания</p>
+            <p class="computer droppable" data-item-type="5">Свойства констант</p>
+            <p class="computer droppable" data-item-type="6">Законы идемпотентности</p>
+            <p class="computer droppable" data-item-type="7">Законы коммутатовности</p>
+            <p class="computer droppable" data-item-type="8">Законы ассоциативности</p>
+            <p class="computer droppable" data-item-type="9">Законы дистрибутивности</p>
+            <p class="computer droppable" data-item-type="10">Законы поглощения</p>
+            <p class="computer droppable" data-item-type="11">Законы де Моргана</p>
+            <p class="computer droppable" data-item-type="12">Правила замены операции импликации</p>
+            <p class="computer droppable" data-item-type="13">Правила замены эквивалентности</p>
+            <p class="computer droppable" data-item-type="15">Правило свертки</p>
+            <p class="computer droppable" data-item-type="16">Правило расширения</p>
+            <p class="computer droppable" data-item-type="17">Правило склеивания</p>
+          </div>
+        
+          <div class="formulas grid">
+          <h2 class="title">ФОРМУЛЫ:</h2>
+          <img src="img/Правила эквивалентности.jpg" alt="" class="draggable" data-item-type="13" width="230px">
+          <img src="img/Правило свертки.jpg" alt="" class="draggable" data-item-type="15" width="250px">
+          <img src="img/Закон идемпотентности.jpg" alt="" class="draggable" data-item-type="6" width="230px">
+          <img src="img/Правило склеивания.jpg" alt="" class="draggable" data-item-type="17" width="170px">
+          <img src="img/Свойства констант.jpg" alt="" class="draggable" data-item-type="5" width="250px">
+          <img src="img/Правила замены операции импликации.jpg" alt="" class="draggable" data-item-type="12" width="230px">
+          <img src="img/Законы коммутативности.jpg" alt="" class="draggable" data-item-type="7" width="230px">
+          <img src="img/Правило расширения.jpg" alt="" class="draggable" data-item-type="16" width="230px">
+          <img src="img/Закон исключающего третьего.jpg" alt="" class="draggable" data-item-type="3" width="90px">
+          <img src="img/Закон двойного отрицания.jpg" alt="" class="draggable" data-item-type="4" width="70px">
+          <img src="img/Законы поглощения.jpg" alt="" class="draggable" data-item-type="10" width="240px">
+          <img src="img/Законы де Моргана.jpg" alt="" class="draggable" data-item-type="11" width="240px">
+          <img src="img/Закон противоречия.jpg" alt="" class="draggable" data-item-type="2" width="90px">
+          <img src="img/Законы дестрибутивности.jpg" alt="" class="draggable" data-item-type="9" width="230px">
+          <img src="img/Закон тождества.jpg" alt="" class="draggable" data-item-type="1" width="60px">
+          <img src="img/Законы ассоциативности.jpg" alt="" class="draggable" data-item-type="8" width="230px">
+        </div> 
+        
+        <h2 class="score">Очки:</h2>
+        <canvas class="results"></canvas>
+
+        <p>Правила этой игры очень просты. Вам нужно перетащить формулы из столбца "Формулы" к соответствующим 
+          им закон математической логики. Если у вас не получается набрать достаточное количество очков, 
+          то можете перейти к "Теории" и узнать о каждой формуле и названия законов математической логики.</p>
+
+        <a href="theory.html" class="button theory">ТЕОРИЯ</a>
+        <a href="#" class="button retry">ЗАНОВО</a>
+        <a href="author.html" class="button author">ОБ АВТОРЕ</a>
+      </div>
+
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
