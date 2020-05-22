@@ -110,17 +110,17 @@ p {
 }
 
 .skill-html {
-  background-image: url("/img/icon-html.svg");
+  background-image: url("img/icon-html.svg");
 }
 
 .skill-css {
   margin-top: 25px;
-  background-image: url("/img/icon-css.svg");
+  background-image: url("img/icon-css.svg");
 }
 
 .skill-js {
   margin-top: 25px;
-  background-image: url("/img/icon-js.png");
+  background-image: url("img/icon-js.png");
 }
 
 .level {
